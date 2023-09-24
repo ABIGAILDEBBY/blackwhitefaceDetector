@@ -1,7 +1,4 @@
-# blackwhitefaceDetector
-
-
-## Black and White Face Detector
+# Black and White Face Detector
 ### Overview
 The "Black and White Face Detector" is a computer vision project aimed at developing a robust and accurate model for detecting black and white faces in images. This project leverages deep learning techniques and sophisticated image processing to identify and classify faces based on their ethnicity.
 
