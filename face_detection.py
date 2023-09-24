@@ -42,7 +42,9 @@ def perform_face_detection(input_directory, output_directory):
             if has_face(image_path):
                 # If a face exists, copy the image to the output directory
                 shutil.copy(image_path, output_path)
-                print(f"Face detected in {filename} and copied to the output directory.")
+                print(
+                    f"Face detected in {filename} and copied to the output directory."
+                )
             else:
                 print(f"No face detected in {filename}.")
 
@@ -53,7 +55,9 @@ if __name__ == "__main__":
     # Create argument parser
     parser = argparse.ArgumentParser(description="Face detection and copying tool")
     parser.add_argument("input_directory", help="Input directory containing images")
-    parser.add_argument("output_directory", help="Output directory of images with detected faces")
+    parser.add_argument(
+        "output_directory", help="Output directory of images with detected faces"
+    )
     args = parser.parse_args()
 
     # Call the function to perform face detection and copying
