@@ -2,3 +2,5 @@
 __pycache__/
 faceDetector/
 *.pyc
+models/
+.DS_Store

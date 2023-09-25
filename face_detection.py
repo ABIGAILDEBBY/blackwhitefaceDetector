@@ -1,8 +1,9 @@
+import argparse
 import os
+import shutil
+
 import cv2
 import dlib
-import shutil
-import argparse
 
 
 # Function to check if a face exists in an image
