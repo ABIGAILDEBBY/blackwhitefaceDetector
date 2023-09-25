@@ -7,11 +7,11 @@ import matplotlib.pyplot as plt
 
 def plot_images(images_arr):
     num_cols = 5
-    num_rows = math.ceil(len(images_arr)/num_cols)
+    num_rows = math.ceil(len(images_arr) / num_cols)
     fig, axes = matplotlib.pyplot.subplots(num_rows, num_cols, figsize=(10, 10))
     axes = axes.flatten()
     for img, ax in zip(images_arr, axes):
         ax.imshow(img)
-        ax.axis('off')
+        ax.axis("off")
     plt.tight_layout()
     plt.show()
