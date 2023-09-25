@@ -1,6 +1,7 @@
 # This function will plot images in the form of a grid with 1 row and 5
 # columns where images are placed in each column.
 import math
+
 import matplotlib.pyplot as plt
 
 

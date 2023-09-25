@@ -1,9 +1,10 @@
 import os
-import tensorflow as tf
-import matplotlib.pyplot as plt
+
 import matplotlib as mpl
+import matplotlib.pyplot as plt
+import tensorflow as tf
+from tensorflow.keras.layers import Conv2D, Dense, Flatten, MaxPooling2D
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 
 # Define image dimensions (height and width) for data preprocessing
 IMG_HEIGHT = 86
